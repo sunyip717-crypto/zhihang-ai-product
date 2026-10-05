@@ -1,0 +1,426 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-09-18",
+  "weeks": [
+    {
+      "week": 1,
+      "tag": "AI 认知启动",
+      "knowledge": [
+        {
+          "id": "k1",
+          "title": "大模型能做什么、不能做什么",
+          "mod": "模块二：AI 基本认知",
+          "min": 5,
+          "kcId": "1_1"
+        },
+        {
+          "id": "k2",
+          "title": "提示词的基本结构（5 要素）",
+          "mod": "模块三：提示词工程",
+          "min": 8,
+          "kcId": "2_1"
+        },
+        {
+          "id": "k3",
+          "title": "AI 幻觉：为什么 AI 会\"一本正经地胡说\"",
+          "mod": "模块二：AI 基本认知",
+          "min": 10,
+          "kcId": "1_5"
+        },
+        {
+          "id": "k4",
+          "title": "为什么学 AI：岗位正在被怎样重塑",
+          "mod": "模块一：元认知层",
+          "min": 8,
+          "kcId": "0_1"
+        },
+        {
+          "id": "k5",
+          "title": "Token、参数、训练——大模型的工作原理",
+          "mod": "模块二：AI 基本认知",
+          "min": 10,
+          "kcId": "1_2"
+        }
+      ],
+      "tutorials": [
+        {
+          "id": "t1",
+          "title": "项目一：让 ChatGPT 帮我写一篇高质量论文",
+          "tool": "ChatGPT/DeepSeek",
+          "outcome": "完整学术论文",
+          "projId": "proj1"
+        }
+      ],
+      "courses": [
+        {
+          "title": "生成式 AI 入门：大模型到底是什么",
+          "desc": "从基础认知出发，理解大模型能做什么、不能做什么。",
+          "tag": "AI 基础认知",
+          "url": "https://www.bilibili.com/video/BV1E7wtzaEdq/"
+        },
+        {
+          "title": "Vibe Coding 入门：不会编程也能做网页",
+          "desc": "从需求描述、页面拆解到修改验证，适合零基础实践。",
+          "tag": "Vibe Coding",
+          "url": "https://www.bilibili.com/video/BV1RFTc62EaK/"
+        },
+        {
+          "title": "无代码搭建个人 AI Agent 助手",
+          "desc": "了解 Agent 与普通问答的区别，尝试拆解多步骤任务。",
+          "tag": "AI Agent",
+          "url": "https://www.bilibili.com/video/BV11NNAz5EKn/"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "tag": "提示词精进",
+      "knowledge": [
+        {
+          "id": "k1",
+          "title": "上下文管理：多轮对话的记忆与遗忘",
+          "mod": "模块三：提示词工程",
+          "min": 8,
+          "kcId": "2_4"
+        },
+        {
+          "id": "k2",
+          "title": "角色设定：让 AI 扮演你需要的专家",
+          "mod": "模块三：提示词工程",
+          "min": 8,
+          "kcId": "2_5"
+        },
+        {
+          "id": "k3",
+          "title": "让 AI 协作处理文档：整理与提炼",
+          "mod": "模块三：提示词工程",
+          "min": 10,
+          "kcId": "2_1"
+        },
+        {
+          "id": "k4",
+          "title": "链式提示：拆分复杂任务的标准方法",
+          "mod": "模块三：提示词工程",
+          "min": 8,
+          "kcId": "2_3"
+        },
+        {
+          "id": "k5",
+          "title": "提示词迭代：为什么第一次永远不是最好的",
+          "mod": "模块三：提示词工程",
+          "min": 8,
+          "kcId": "2_2"
+        }
+      ],
+      "tutorials": [
+        {
+          "id": "t1",
+          "title": "项目二：让 AI 帮我完成一次文献综述",
+          "tool": "Kimi+Google Scholar",
+          "outcome": "文献综述报告",
+          "projId": "proj2"
+        }
+      ],
+      "courses": [
+        {
+          "title": "提示词工程实战：让 AI 真正听懂你的意思",
+          "desc": "覆盖结构化提示词、角色设定和迭代调优，适合进入工具深化阶段。",
+          "tag": "提示词工程",
+          "url": "https://www.bilibili.com/video/BV1NGVo6BEgu/"
+        },
+        {
+          "title": "Kimi 使用精讲：长文档处理与信息提炼",
+          "desc": "专为文科生设计，从上传文档到提炼结论全流程演示。",
+          "tag": "AI 工具应用",
+          "url": "https://www.bilibili.com/video/BV1E7wtzaEdq/"
+        },
+        {
+          "title": "AI 工作流搭建：把重复任务变成一键操作",
+          "desc": "了解如何用 AI 工具组合处理工作中的标准化任务。",
+          "tag": "AI 工作流",
+          "url": "https://www.bilibili.com/video/BV11NNAz5EKn/"
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "tag": "工作流设计",
+      "knowledge": [
+        {
+          "id": "k1",
+          "title": "什么是工作流：从手动操作到可复用流程",
+          "mod": "模块四：AI Agent",
+          "min": 8,
+          "kcId": "4_1"
+        },
+        {
+          "id": "k2",
+          "title": "信息筛选：如何判断 AI 输出的可用性",
+          "mod": "模块三：提示词工程",
+          "min": 8,
+          "kcId": "2_4"
+        },
+        {
+          "id": "k3",
+          "title": "AI 工具选型：什么场景用什么工具",
+          "mod": "模块二：AI 基本认知",
+          "min": 10,
+          "kcId": "1_3"
+        },
+        {
+          "id": "k4",
+          "title": "结构化输出：让 AI 按你要的格式回答",
+          "mod": "模块三：提示词工程",
+          "min": 8,
+          "kcId": "2_2"
+        },
+        {
+          "id": "k5",
+          "title": "多步骤任务拆解与 Agent 编排",
+          "mod": "模块四：AI Agent",
+          "min": 10,
+          "kcId": "4_4"
+        }
+      ],
+      "tutorials": [
+        {
+          "id": "t1",
+          "title": "项目三：每周自动信息整理工作流",
+          "tool": "Kimi/扣子",
+          "outcome": "可复用 SOP + 运行记录",
+          "projId": "proj3"
+        }
+      ],
+      "courses": [
+        {
+          "title": "AI 工作流搭建：把重复任务变成一键操作",
+          "desc": "从任务拆解到工作流设计，覆盖扣子、Dify 等平台实战。",
+          "tag": "AI 工作流",
+          "url": "https://www.bilibili.com/video/BV11NNAz5EKn/"
+        },
+        {
+          "title": "Kimi 使用精讲：长文档处理与信息提炼",
+          "desc": "文科生高频使用的长文处理与信息摘要场景全演示。",
+          "tag": "AI 工具应用",
+          "url": "https://www.bilibili.com/video/BV1E7wtzaEdq/"
+        },
+        {
+          "title": "提示词工程实战：让 AI 真正听懂你的意思",
+          "desc": "覆盖结构化提示词、角色设定和迭代调优。",
+          "tag": "提示词工程",
+          "url": "https://www.bilibili.com/video/BV1NGVo6BEgu/"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "tag": "Agent 探索",
+      "knowledge": [
+        {
+          "id": "k1",
+          "title": "什么是 AI Agent：从对话到自主行动",
+          "mod": "模块四：AI Agent",
+          "min": 8,
+          "kcId": "4_1"
+        },
+        {
+          "id": "k2",
+          "title": "Agent 的工具调用：搜索、代码、文件",
+          "mod": "模块四：AI Agent",
+          "min": 10,
+          "kcId": "4_2"
+        },
+        {
+          "id": "k3",
+          "title": "多 Agent 协作：让多个 AI 分工合作",
+          "mod": "模块四：AI Agent",
+          "min": 10,
+          "kcId": "4_3"
+        },
+        {
+          "id": "k4",
+          "title": "扣子/Coze：无代码 Agent 搭建入门",
+          "mod": "模块四：AI Agent",
+          "min": 12,
+          "kcId": "4_4"
+        },
+        {
+          "id": "k5",
+          "title": "Agent 落地场景：内容生产、信息整理、自动化",
+          "mod": "模块四：AI Agent",
+          "min": 8,
+          "kcId": "4_5"
+        }
+      ],
+      "tutorials": [
+        {
+          "id": "t1",
+          "title": "项目四：用 AI 造一个自己的工具",
+          "tool": "豆包/Cursor + GitHub Pages",
+          "outcome": "有公开 URL 的工具",
+          "projId": "proj4"
+        }
+      ],
+      "courses": [
+        {
+          "title": "无代码搭建个人 AI Agent 助手",
+          "desc": "了解 Agent 与普通问答的区别，从零搭建你的第一个 Agent。",
+          "tag": "AI Agent",
+          "url": "https://www.bilibili.com/video/BV11NNAz5EKn/"
+        },
+        {
+          "title": "Coze 实战：用工作流完成复杂任务",
+          "desc": "从任务拆解到工作流编排，适合探索 Agent 能力边界。",
+          "tag": "AI Agent",
+          "url": "https://www.bilibili.com/video/BV1RFTc62EaK/"
+        },
+        {
+          "title": "AI 工具矩阵：选对工具，事半功倍",
+          "desc": "了解不同 AI 工具的能力边界，避免用错工具做错事。",
+          "tag": "AI 工具应用",
+          "url": "https://www.bilibili.com/video/BV1NGVo6BEgu/"
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "tag": "Vibe Coding",
+      "knowledge": [
+        {
+          "id": "k1",
+          "title": "Vibe Coding 是什么：用自然语言写代码",
+          "mod": "模块五：Vibe Coding",
+          "min": 8,
+          "kcId": "5_1"
+        },
+        {
+          "id": "k2",
+          "title": "从需求到代码：PRD 拆解实战",
+          "mod": "模块五：Vibe Coding",
+          "min": 10,
+          "kcId": "5_2"
+        },
+        {
+          "id": "k3",
+          "title": "Bug 调试：精确描述问题让 AI 修复",
+          "mod": "模块五：Vibe Coding",
+          "min": 8,
+          "kcId": "5_3"
+        },
+        {
+          "id": "k4",
+          "title": "部署发布：GitHub Pages 从零到上线",
+          "mod": "模块五：Vibe Coding",
+          "min": 10,
+          "kcId": "5_4"
+        },
+        {
+          "id": "k5",
+          "title": "产品迭代：如何用 AI 持续改进工具",
+          "mod": "模块五：Vibe Coding",
+          "min": 8,
+          "kcId": "5_5"
+        }
+      ],
+      "tutorials": [
+        {
+          "id": "t1",
+          "title": "复盘项目四：完善你的工具并发布上线",
+          "tool": "豆包/Cursor + GitHub Pages",
+          "outcome": "完善版工具 + 公开链接",
+          "projId": "proj4"
+        }
+      ],
+      "courses": [
+        {
+          "title": "Vibe Coding 入门：不会编程也能做网页",
+          "desc": "从需求描述、页面拆解到修改验证，适合零基础实践。",
+          "tag": "Vibe Coding",
+          "url": "https://www.bilibili.com/video/BV1RFTc62EaK/"
+        },
+        {
+          "title": "生成式 AI 入门：大模型到底是什么",
+          "desc": "巩固 AI 基础认知，为后续求职场景做好准备。",
+          "tag": "AI 基础认知",
+          "url": "https://www.bilibili.com/video/BV1E7wtzaEdq/"
+        },
+        {
+          "title": "无代码搭建个人 AI Agent 助手",
+          "desc": "融合 Agent 与 Vibe Coding，探索更复杂工具搭建。",
+          "tag": "AI Agent",
+          "url": "https://www.bilibili.com/video/BV11NNAz5EKn/"
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "tag": "求职冲刺",
+      "knowledge": [
+        {
+          "id": "k1",
+          "title": "用 AI 打磨简历：精准匹配岗位 JD",
+          "mod": "模块六：求职场景",
+          "min": 8,
+          "kcId": "6_1"
+        },
+        {
+          "id": "k2",
+          "title": "AI 面试准备：模拟问答与结构化表达",
+          "mod": "模块六：求职场景",
+          "min": 10,
+          "kcId": "6_2"
+        },
+        {
+          "id": "k3",
+          "title": "如何用 AI 产出物证明你的能力",
+          "mod": "模块六：求职场景",
+          "min": 8,
+          "kcId": "6_3"
+        },
+        {
+          "id": "k4",
+          "title": "岗位 JD 拆解：提炼核心要求与行动点",
+          "mod": "模块六：求职场景",
+          "min": 8,
+          "kcId": "6_4"
+        },
+        {
+          "id": "k5",
+          "title": "个人求职品牌：让 AI 帮你讲好自己的故事",
+          "mod": "模块六：求职场景",
+          "min": 10,
+          "kcId": "6_5"
+        }
+      ],
+      "tutorials": [
+        {
+          "id": "t1",
+          "title": "整理求职资产：提炼 4 个项目的可展示成果",
+          "tool": "ChatGPT/DeepSeek",
+          "outcome": "完整求职作品集",
+          "projId": "practice"
+        }
+      ],
+      "courses": [
+        {
+          "title": "生成式 AI 入门：大模型到底是什么",
+          "desc": "最终巩固 AI 认知，完善能力体系。",
+          "tag": "AI 基础认知",
+          "url": "https://www.bilibili.com/video/BV1E7wtzaEdq/"
+        },
+        {
+          "title": "提示词工程实战：让 AI 真正听懂你的意思",
+          "desc": "用于简历润色、面试准备等求职高频场景。",
+          "tag": "提示词工程",
+          "url": "https://www.bilibili.com/video/BV1NGVo6BEgu/"
+        },
+        {
+          "title": "Vibe Coding 入门：不会编程也能做网页",
+          "desc": "用已有项目展示 Vibe Coding 能力，打造求职亮点。",
+          "tag": "Vibe Coding",
+          "url": "https://www.bilibili.com/video/BV1RFTc62EaK/"
+        }
+      ]
+    }
+  ]
+}

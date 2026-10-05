@@ -1,0 +1,162 @@
+{
+  "version": "1.1.0",
+  "updatedAt": "2026-09-29",
+  "featured": {
+    "id": "system_intro",
+    "title": "给所有人的 AI 入门课（系统课）",
+    "desc": "从零起步的完整体系课程，适合在分类课程之前先建立整体认知。",
+    "url": "https://www.bilibili.com/video/BV1NGVo6BEgu/"
+  },
+  "groups": [
+    {
+      "id": "basic",
+      "label": "AI 基础认知",
+      "courses": [
+        {
+          "num": 1,
+          "title": "生成式 AI 入门：大模型到底是什么",
+          "desc": "理解大模型能做什么、不能做什么，建立基础能力边界认知。",
+          "url": "https://www.bilibili.com/video/BV1E7wtzaEdq/"
+        },
+        {
+          "num": 2,
+          "title": "大语言模型的能力边界与常见误区",
+          "desc": "深入辨析大模型能力与局限，避免常见认知错误。",
+          "url": "https://www.bilibili.com/video/BV1dTnxzKEeu/"
+        },
+        {
+          "num": 3,
+          "title": "提示词基础：如何把模糊问题说清楚",
+          "desc": "从问题结构化出发，学会写出让 AI 准确理解的提示词。",
+          "url": "https://www.bilibili.com/video/BV1VEA8zYE6f/"
+        },
+        {
+          "num": 4,
+          "title": "AI 输出核验：事实查证、来源判断与信息风险",
+          "desc": "学习核验 AI 输出的方法，建立信息风险意识。",
+          "url": "https://www.bilibili.com/video/BV1im3r6rEH6/"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "label": "AI 工具应用",
+      "courses": [
+        {
+          "num": 5,
+          "title": "如何使用满血 DeepSeek v4",
+          "desc": "DeepSeek 正式版完整使用指南，涵盖常用场景与技巧。",
+          "url": "https://www.bilibili.com/video/BV13dGw6oEvD/"
+        },
+        {
+          "num": 6,
+          "title": "豆包办公实践",
+          "desc": "用豆包处理日常办公任务，提升工作效率的实操演示。",
+          "url": "https://www.bilibili.com/video/BV1mhKv68EPQ/"
+        },
+        {
+          "num": 7,
+          "title": "Kimi K3 使用介绍",
+          "desc": "Kimi K3 核心功能介绍与使用场景说明。",
+          "url": "https://www.bilibili.com/video/BV1jbKa6NESh/"
+        },
+        {
+          "num": 8,
+          "title": "Qwen3 本地部署",
+          "desc": "本地部署 Qwen3 全流程，适合有私密性需求的用户。",
+          "url": "https://www.bilibili.com/video/BV1MwxvzFECW/"
+        },
+        {
+          "num": 9,
+          "title": "ChatGPT + Codex 使用技巧",
+          "desc": "ChatGPT 与 Codex 组合使用技巧，适合办公提效场景。",
+          "url": "https://www.bilibili.com/video/BV1ssN16HEkq/"
+        },
+        {
+          "num": 10,
+          "title": "如何选择适合任务的工具",
+          "desc": "工具选型思路：根据任务类型、成本和联网需求做决策。",
+          "url": "https://www.bilibili.com/video/BV13XjB6gERT/"
+        }
+      ]
+    },
+    {
+      "id": "workflow",
+      "label": "AI 工作流",
+      "courses": [
+        {
+          "num": 11,
+          "title": "什么是 AI 工作流",
+          "desc": "理解 AI 工作流的核心概念，掌握从需求到交付的完整思路。",
+          "url": "https://www.bilibili.com/video/BV1Q5TN6XEri/"
+        },
+        {
+          "num": 12,
+          "title": "什么是 Skill，如何创建一个 Skill",
+          "desc": "学会用 Skill 沉淀可复用的 AI 工作流资产。",
+          "url": "https://www.bilibili.com/video/BV1ECTD6hEDy"
+        },
+        {
+          "num": 13,
+          "title": "用 AI 搭建个人知识库与学习系统",
+          "desc": "用 AI 工具管理和检索个人知识，形成可复用的学习系统。",
+          "url": "https://www.bilibili.com/video/BV1yCKt6uEZe"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "label": "AI Agent",
+      "courses": [
+        {
+          "num": 15,
+          "title": "AI Agent 系统课",
+          "desc": "从零系统学习 AI Agent 的工作原理与应用场景。",
+          "url": "https://www.bilibili.com/video/BV1YG7G6eEPR"
+        },
+        {
+          "num": 16,
+          "title": "无代码搭建个人 AI Agent 助手",
+          "desc": "零代码用可视化平台搭建自己的 AI 智能体助手。",
+          "url": "https://www.bilibili.com/video/BV11NNAz5EKn/"
+        }
+      ]
+    },
+    {
+      "id": "vibecoding",
+      "label": "Vibe Coding",
+      "courses": [
+        {
+          "num": 19,
+          "title": "Vibe Coding 入门：不会编程也能做网页",
+          "desc": "从需求描述、页面拆解到修改验证，适合零基础文科生实践。",
+          "url": "https://www.bilibili.com/video/BV1RFTc62EaK/"
+        },
+        {
+          "num": 20,
+          "title": "Vibe Coding 快速入门 + 实操课",
+          "desc": "更深度的 Vibe Coding 实操教程，包含多个完整案例。",
+          "url": "https://www.bilibili.com/video/BV16zPuzHE9n/"
+        }
+      ]
+    },
+    {
+      "id": "job",
+      "label": "岗位实践",
+      "courses": [
+        {
+          "num": 23,
+          "title": "用 AI 拆解目标岗位 JD，生成求职准备清单",
+          "desc": "实操：从真实 JD 出发，用 AI 生成结构化的求职准备方案。",
+          "url": "https://www.bilibili.com/video/BV1rrKLeQEnV/"
+        },
+        {
+          "num": 24,
+          "title": "用 AI 打磨项目经历：从实践作品到简历表达",
+          "desc": "学会把 AI 实践项目转化为简历中可展示、可描述的求职资产。",
+          "url": "https://www.bilibili.com/video/BV1MDq1BiE5A/"
+        }
+      ]
+    }
+  ]
+}

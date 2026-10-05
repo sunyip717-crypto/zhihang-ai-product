@@ -1,0 +1,338 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-09-18",
+  "jobs": [
+    {
+      "name": "AI 内容运营",
+      "label": "内容创作 · 新媒体",
+      "desc": "负责选题、文案、脚本与内容分发，用 AI 提升内容生产效率。",
+      "keywords": "内容 文案 选题 脚本 新媒体",
+      "disciplines": [
+        "文学",
+        "教育学",
+        "管理学",
+        "艺术学"
+      ],
+      "stages": [
+        "方向探索期",
+        "能力补全期",
+        "求职实践期"
+      ],
+      "weights": {
+        "workflow": 3,
+        "verify": 1,
+        "agent": 1,
+        "build": 1,
+        "practice": 2
+      }
+    },
+    {
+      "name": "AI 产品运营",
+      "label": "产品与运营",
+      "desc": "协助梳理用户需求、设计运营流程、跟进数据与产品迭代。",
+      "keywords": "产品 用户 运营 数据 流程",
+      "disciplines": [
+        "管理学",
+        "经济学",
+        "教育学"
+      ],
+      "stages": [
+        "能力补全期",
+        "求职实践期"
+      ],
+      "weights": {
+        "workflow": 3,
+        "verify": 2,
+        "agent": 2,
+        "build": 2,
+        "practice": 2
+      }
+    },
+    {
+      "name": "用户研究助理",
+      "label": "研究分析 · 用户洞察",
+      "desc": "设计访谈、整理用户反馈、提炼洞察并支持产品决策。",
+      "keywords": "用户研究 访谈 洞察 调研 分析",
+      "disciplines": [
+        "文学",
+        "教育学",
+        "历史学",
+        "法学",
+        "管理学"
+      ],
+      "stages": [
+        "方向探索期",
+        "能力补全期"
+      ],
+      "weights": {
+        "workflow": 2,
+        "verify": 3,
+        "agent": 1,
+        "build": 0,
+        "practice": 2
+      }
+    },
+    {
+      "name": "AI 内容风控",
+      "label": "研究分析 · 风险",
+      "desc": "识别内容风险，制定审核标准，协助建立 AI 内容安全流程。",
+      "keywords": "风控 合规 审核 伦理 内容安全",
+      "disciplines": [
+        "法学",
+        "马克思主义理论",
+        "文学",
+        "管理学"
+      ],
+      "stages": [
+        "能力补全期",
+        "求职实践期"
+      ],
+      "weights": {
+        "workflow": 1,
+        "verify": 3,
+        "agent": 1,
+        "build": 0,
+        "practice": 1
+      }
+    },
+    {
+      "name": "AI 办公效能运营",
+      "label": "流程优化 · 协作",
+      "desc": "把高频事务拆成可复用的 AI 协作流程，并推动团队采用。",
+      "keywords": "办公 效率 SOP 自动化 协作",
+      "disciplines": [
+        "管理学",
+        "经济学",
+        "文学",
+        "教育学"
+      ],
+      "stages": [
+        "能力补全期",
+        "求职实践期"
+      ],
+      "weights": {
+        "workflow": 3,
+        "verify": 1,
+        "agent": 2,
+        "build": 1,
+        "practice": 2
+      }
+    },
+    {
+      "name": "AI 知识库运营",
+      "label": "知识管理 · 内容",
+      "desc": "整理资料、设计知识结构并持续优化检索与问答体验。",
+      "keywords": "知识库 文档 信息整理 检索",
+      "disciplines": [
+        "历史学",
+        "文学",
+        "教育学",
+        "管理学"
+      ],
+      "stages": [
+        "方向探索期",
+        "能力补全期"
+      ],
+      "weights": {
+        "workflow": 3,
+        "verify": 2,
+        "agent": 2,
+        "build": 1,
+        "practice": 2
+      }
+    },
+    {
+      "name": "AI 教育产品助理",
+      "label": "教育 · 产品",
+      "desc": "围绕学习场景设计内容、任务和反馈，并用 AI 优化学习体验。",
+      "keywords": "教育 学习 产品 课程 用户",
+      "disciplines": [
+        "教育学",
+        "文学",
+        "管理学",
+        "心理学"
+      ],
+      "stages": [
+        "方向探索期",
+        "能力补全期"
+      ],
+      "weights": {
+        "workflow": 2,
+        "verify": 2,
+        "agent": 1,
+        "build": 2,
+        "practice": 2
+      }
+    },
+    {
+      "name": "AI 品牌与雇主传播",
+      "label": "品牌传播 · 内容",
+      "desc": "将组织故事转化为面向不同人群的内容与传播活动。",
+      "keywords": "品牌 传播 雇主 内容 活动",
+      "disciplines": [
+        "文学",
+        "艺术学",
+        "管理学",
+        "马克思主义理论"
+      ],
+      "stages": [
+        "方向探索期",
+        "求职实践期"
+      ],
+      "weights": {
+        "workflow": 2,
+        "verify": 1,
+        "agent": 1,
+        "build": 1,
+        "practice": 3
+      }
+    },
+    {
+      "name": "AI 市场研究助理",
+      "label": "市场 · 研究分析",
+      "desc": "收集行业与竞品信息，形成有来源、可复查的研究结论。",
+      "keywords": "市场 竞品 行业 调研 数据",
+      "disciplines": [
+        "经济学",
+        "管理学",
+        "历史学",
+        "法学"
+      ],
+      "stages": [
+        "能力补全期",
+        "求职实践期"
+      ],
+      "weights": {
+        "workflow": 2,
+        "verify": 3,
+        "agent": 2,
+        "build": 0,
+        "practice": 2
+      }
+    },
+    {
+      "name": "AI 公共传播运营",
+      "label": "公共事务 · 内容",
+      "desc": "围绕公共议题完成信息整理、内容表达与舆情风险判断。",
+      "keywords": "公共传播 舆情 议题 内容",
+      "disciplines": [
+        "马克思主义理论",
+        "文学",
+        "管理学",
+        "法学"
+      ],
+      "stages": [
+        "方向探索期",
+        "能力补全期"
+      ],
+      "weights": {
+        "workflow": 2,
+        "verify": 3,
+        "agent": 1,
+        "build": 0,
+        "practice": 2
+      }
+    },
+    {
+      "name": "AI Agent 运营助理",
+      "label": "智能体 · 工作流",
+      "desc": "设计 Agent 任务、维护知识与工具配置，并监控运行结果。",
+      "keywords": "Agent 智能体 工作流 自动化 工具",
+      "disciplines": [
+        "管理学",
+        "经济学",
+        "教育学",
+        "文学"
+      ],
+      "stages": [
+        "能力补全期",
+        "求职实践期"
+      ],
+      "weights": {
+        "workflow": 3,
+        "verify": 2,
+        "agent": 3,
+        "build": 1,
+        "practice": 2
+      }
+    },
+    {
+      "name": "AI 工具内容设计",
+      "label": "产品创造 · 内容体验",
+      "desc": "为 AI 工具设计提示、页面文案和使用流程，改善用户体验。",
+      "keywords": "工具设计 体验 文案 Vibe Coding",
+      "disciplines": [
+        "艺术学",
+        "文学",
+        "管理学",
+        "教育学"
+      ],
+      "stages": [
+        "能力补全期",
+        "求职实践期"
+      ],
+      "weights": {
+        "workflow": 2,
+        "verify": 1,
+        "agent": 1,
+        "build": 3,
+        "practice": 3
+      }
+    },
+    {
+      "id": "hr_employer_brand",
+      "name": "AI 雇主品牌运营",
+      "label": "人力 · 雇主品牌",
+      "desc": "把员工体验、组织故事和招聘场景转化为可信、统一、可复用的雇主品牌内容。",
+      "keywords": "雇主品牌 校招 招聘传播 组织故事 员工体验",
+      "disciplines": ["文学", "新闻传播学", "管理学", "艺术学", "马克思主义理论"],
+      "stages": ["方向探索期", "能力补全期", "求职实践期"],
+      "weights": {"workflow": 2, "verify": 2, "agent": 1, "build": 1, "practice": 3},
+      "projectIds": ["role_employer_brand_story"]
+    },
+    {
+      "id": "hr_culture_ops",
+      "name": "AI 企业文化运营",
+      "label": "人力 · 企业文化",
+      "desc": "围绕文化理念、员工沟通与活动复盘，设计有参与感且可持续迭代的内部文化体验。",
+      "keywords": "企业文化 员工沟通 文化活动 内部传播 价值观",
+      "disciplines": ["文学", "新闻传播学", "管理学", "社会学", "马克思主义理论"],
+      "stages": ["方向探索期", "能力补全期", "求职实践期"],
+      "weights": {"workflow": 2, "verify": 2, "agent": 1, "build": 1, "practice": 3},
+      "projectIds": ["role_culture_campaign"]
+    },
+    {
+      "id": "hr_learning_development",
+      "name": "AI 学习发展运营",
+      "label": "人力 · 学习发展",
+      "desc": "将业务与员工发展需求转成学习任务、课程路径和反馈机制，并用 AI 提升内容与运营效率。",
+      "keywords": "学习发展 培训 课程设计 人才发展 学习体验",
+      "disciplines": ["教育学", "心理学", "管理学", "文学", "社会学"],
+      "stages": ["方向探索期", "能力补全期", "求职实践期"],
+      "weights": {"workflow": 3, "verify": 2, "agent": 1, "build": 1, "practice": 3},
+      "projectIds": ["role_learning_sprint"]
+    },
+    {
+      "id": "hr_org_development",
+      "name": "AI 组织发展助理",
+      "label": "人力 · 组织发展",
+      "desc": "协助梳理组织诊断信息、会议纪要与协同流程，把模糊问题转化为可讨论、可推进的组织行动。",
+      "keywords": "组织发展 OD 组织诊断 协同 变革 人才盘点",
+      "disciplines": ["管理学", "心理学", "社会学", "教育学", "经济学"],
+      "stages": ["能力补全期", "求职实践期"],
+      "weights": {"workflow": 3, "verify": 3, "agent": 2, "build": 0, "practice": 2},
+      "projectIds": ["role_od_diagnosis"]
+    },
+    {
+      "id": "hr_people_analytics",
+      "name": "AI HR 数据运营",
+      "label": "人力 · 数据运营",
+      "desc": "围绕招聘、培训或员工体验数据完成口径梳理、基础分析与可解释的业务洞察表达。",
+      "keywords": "HR 数据 人才数据 招聘数据 培训数据 员工体验 数据分析",
+      "disciplines": ["管理学", "经济学", "统计学", "心理学", "社会学"],
+      "stages": ["能力补全期", "求职实践期"],
+      "weights": {"workflow": 3, "verify": 3, "agent": 2, "build": 1, "practice": 2},
+      "projectIds": ["role_people_data_story"]
+    }
+  ]
+}
