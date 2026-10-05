@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>正在打开知航…</title>
+</head>
+<body>
+  <p>正在打开知航…</p>
+  <script>
+    // 保留 Supabase 邮件确认后的 query/hash，让 Demo 中的 Auth 客户端接管会话。
+    var entryParams = new URLSearchParams(window.location.search);
+    entryParams.set('build', '20260929-p0');
+    window.location.replace('./知航_首版Demo_v1.8.html?' + entryParams.toString() + window.location.hash);
+  </script>
+</body>
+</html>
