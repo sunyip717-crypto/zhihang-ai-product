@@ -94,6 +94,7 @@ body:before{content:"";position:fixed;z-index:-1;inset:0;background:linear-gradi
 #accountRecovery .text-btn{display:block;text-align:left;white-space:normal;padding-left:0}
 .mobile-nav{display:none}
 @media(max-width:820px){.mobile-nav{position:sticky;top:70px;z-index:9;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));background:var(--paper);border-bottom:2px solid var(--ink);box-shadow:0 3px 0 rgba(41,45,37,.12)}.mobile-nav button{min-width:0;min-height:48px;padding:8px 2px;border:0;border-right:1px solid var(--line);background:transparent;color:var(--ink);font-size:12px;font-weight:800;line-height:1.2}.mobile-nav button:last-child{border-right:0}.mobile-nav button.active{background:var(--sun)}.mobile-nav button:focus-visible{outline:3px solid var(--blue);outline-offset:-3px}}
+.pilot-footer{max-width:1120px;margin:0 auto;padding:20px 28px 32px;border-top:1.5px dashed var(--ink);color:var(--muted);font-size:12px;line-height:1.8}.pilot-footer p{margin:4px 0}.pilot-footer strong{color:var(--ink)}.pilot-footer a,.cloud-note a{color:var(--blue);font-weight:700;text-underline-offset:3px}
 </style>
 </head>
 <body>
@@ -429,6 +430,10 @@ body:before{content:"";position:fixed;z-index:-1;inset:0;background:linear-gradi
   </div>
 </section>
 </main>
+<footer class="pilot-footer">
+  <p><strong>知航 · 小范围试用</strong>　反馈问题或申请删除账号、作品：<a href="mailto:601094079@qq.com">601094079@qq.com</a></p>
+  <p>删除申请请尽量使用注册邮箱发送，便于核对账号；目前由维护者人工处理。邮件中请勿发送密码、身份证件或未经脱敏的作品原件。</p>
+</footer>
 <!-- 由 content/projects.json 同步生成，确保直接打开 HTML 时也有完整核心教程。 -->
 <script type="application/json" id="embeddedProjects">
 {
@@ -1017,7 +1022,7 @@ body:before{content:"";position:fixed;z-index:-1;inset:0;background:linear-gradi
       <button id="importLegacyBtn" class="text-btn" type="button" onclick="importAccountRecords('legacy')" hidden>确认归属后导入旧版记录</button>
       <p class="small">账号记录彼此隔离；旧版共享记录仅保留为备份，不会自动写入任一账号。导入会替换当前账号的成长记录，并先备份当前记录。</p>
     </div>
-    <div class="cloud-note">知航目前处于小范围试用。未登录也可浏览和体验；请只上传你有权使用且已脱敏的材料，不要上传身份证件、真实候选人或员工资料、企业内部文件。</div>
+    <div class="cloud-note">知航目前处于小范围试用。未登录也可浏览和体验；请只上传你有权使用且已脱敏的材料，不要上传身份证件、真实候选人或员工资料、企业内部文件。反馈或申请删除账号、作品，可使用注册邮箱联系 <a href="mailto:601094079@qq.com">601094079@qq.com</a>；目前由维护者人工处理。</div>
   </div>
 </div>
 </div>
